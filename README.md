@@ -21,7 +21,7 @@ The objective of this project is to learn how to set up pfSense firewall to secu
 - ISO Images – pfSense installation media
 
 
-<img width="551" height="611" alt="pfsense" src="https://github.com/user-attachments/assets/11c412ba-4101-4e8a-9c15-94ac3b3c0e80" />
+
 ## Step
 - First we need to download ISO from pfSense website > choose "AMD64 ISO IPMI/Virtual Machines" option
 
