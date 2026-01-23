@@ -15,7 +15,7 @@ The objective of this project is to learn how to set up pfSense firewall to secu
 ## Tools
 
 - pfSense Firewall – Open-source Community Edition (CE) 
-- Virtualization Software: VirtualBox
+- Virtualization Software: VMware Workstation Pro
 - Client Operating Systems: Windows 11, Ubuntu Linux
 - Web Browser – For pfSense web-based management interface
 - ISO Images – pfSense installation media
@@ -25,7 +25,7 @@ The objective of this project is to learn how to set up pfSense firewall to secu
 
 ## Step
 - Set up VMware Workstation Pro
-- Set up Ubuntu and Windows 11 onto VWware machine
+- Set up Ubuntu and Windows 11 onto VMware machine
 - Next, download pfSense firewall CE version from pfSense website > choose "AMD64 ISO IPMI/Virtual Machines" option > I got a file that end with .iso.gz so, I need to download "7-Zip file manager" > extracted to .iso file
 - Create New Virtual machine set the name to `pfSense`
 - Edit virtual machine settings
@@ -38,4 +38,6 @@ The objective of this project is to learn how to set up pfSense firewall to secu
 
 ![1](https://github.com/user-attachments/assets/2cce1fb7-4775-4624-953f-eef7c105a3cf)
 
-
+- Next we have to set Ubuntu and Windows 11 to corresponding LAN Segments
+- On Windows 11 > Network Adapter: `LAN Segment 1`
+- On Ubuntu > Network Adapter: `LAN Segment 2`
