@@ -41,3 +41,22 @@ The objective of this project is to learn how to set up pfSense firewall to secu
 - Next we have to set Ubuntu and Windows 11 to corresponding LAN Segments
 - On Windows 11 > Network Adapter: `LAN Segment 1`
 - On Ubuntu > Network Adapter: `LAN Segment 2`
+
+### Installing pfSense
+- Power up pfsense from virtual machine that we just made > accept > install > "Please select the WAN interface" so we will select to first one
+![2](https://github.com/user-attachments/assets/8e62ae6c-c2ee-48e0-9683-ce6505d89e04)
+- Then press "OK"
+- Next, we have to select the LAN interface > select the second options and set up according to our diagram
+![3](https://github.com/user-attachments/assets/95c95fde-2d06-473e-b070-196cb2fafe7f)
+- Next, it will show that
+- LAN: `em1`
+- WAN: `em0`
+- Selected "Install CE" > OK > OK > Choose the "Current Stable version" > Hit enter > Installing process is start (It might take a while) > Reboot
+![4](https://github.com/user-attachments/assets/8b0af03b-6f89-4e87-89e8-cd370e5b3257)
+
+- We can see the IP for WAN is DHCP as we expected and LAN is `10.1.1.1/24`
+- Hit number 3 to "Reset admin account and password" > create your own password
+- We will go to configure on GUI on our LAN side
+- Go to Windows 11 machine
+
+
